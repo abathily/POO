@@ -1,0 +1,37 @@
+ body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+ }
+.cart-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+}
+.cart-items {
+            display: flex;
+            gap: 20px;
+}
+.item {
+            background: #fafafa;
+            padding: 10px;
+            border-radius: 5px;
+            width: 150px;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+.controls button {
+            margin: 5px;
+            cursor: pointer;
+}
+.favorite.active {
+            color: red;
+}
+    
