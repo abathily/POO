@@ -8,7 +8,7 @@ class Product {
 }
 
 
-// Classe ShoppingCartItem (Élément du panier)
+// Classe Élément du panier
 
 class ShoppingCartItem {
     constructor(product, quantity = 1) {
@@ -35,7 +35,7 @@ class ShoppingCartItem {
 }
 
 
-//Classe ShoppingCart (Panier d'achat)
+//Classe Panier d'achat
 
 class ShoppingCart {
     constructor() {
